@@ -7,7 +7,7 @@ type productsInitialState = {
 };
 
 const productsInitialState = {
-  availableProducts: [],
+  availableProducts: PRODUCTS,
   userProducts: PRODUCTS.filter((prod) => prod.ownerId === "u1"),
 };
 
